@@ -36,7 +36,7 @@ void mouseWheel(MouseEvent event)
 void keyPressed()
 {
   if (key == 's') screenCapture(); //save captures
-  if (key == 'r') setup(); //reset
+  if (key == 'r') initialize(); //reset
   if (key == 'm')
   {
     cylinderMode = !cylinderMode;
